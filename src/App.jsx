@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <div style={appStyle}>
+    <div>
       <div>
         {/* <h1>React Prop Example</h1> */}
         {/* <h1>Handling Input Change</h1> */}
