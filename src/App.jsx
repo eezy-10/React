@@ -1,7 +1,9 @@
-import BookCard from "./BookCard";
-import UserCard from "./UserCard"
-import InputCard from "./InputCard";
-import BookList from "./BookCard";
+import BookCard from "./pages/BookCard";
+import UserCard from "./pages/UserCard"
+import InputCard from "./pages/InputCard";
+import BookList from "./pages/BookCard";
+import UserList from "./pages/UserList";
+import ContactManager from "./pages/ContactManager";
 
 function App() {
   const appStyle = {
@@ -21,8 +23,11 @@ function App() {
         {/* <UserCard name = 'Irtaza Ahmad' age={22} city = 'Lahore'/> */}
         {/* <BookCard title='The Great Gatsby' author='F. Scott Fitzgerald' year={1925} /> */}
         {/* <InputCard/> */}
-        <h1>Rendering Data</h1>
-        <BookList />
+        {/* <h1>Rendering Data</h1>
+        <BookList /> */}
+        {/* <h1>Fetching User Data</h1>
+        <UserList /> */}
+        <ContactManager/>
       </div>
     </div>    
   );
